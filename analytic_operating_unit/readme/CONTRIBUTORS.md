@@ -2,3 +2,4 @@
 - Sudhir Arya \<<sudhir@erpharbor.com>\>
 - Alan Ramos \<<alan.ramos@jarsa.com.mx>\>
 - Alejandro Leonard \<<alejandro.leonard@braintec.com>\>
+- Daniel Lagin \<<daniel.lagin@braintec.com>\>
