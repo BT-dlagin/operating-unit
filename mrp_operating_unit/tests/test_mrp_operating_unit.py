@@ -10,7 +10,7 @@ from odoo.tests.common import Form
 
 class TestMrpOperatingUnit(common.TransactionCase):
     def setUp(self):
-        super(TestMrpOperatingUnit, self).setUp()
+        super().setUp()
         self.res_users_model = self.env["res.users"]
         self.mrp_production_model = self.env["mrp.production"]
         self.company = self.env.ref("base.main_company")
@@ -139,9 +139,7 @@ class TestMrpOperatingUnit(common.TransactionCase):
             [("id", "=", self.mrp_record1.id), ("operating_unit_id", "=", self.ou1.id)]
         )
         self.assertEqual(
-            record.ids,
-            [],
-            "User 2 should not have access to " "OU : %s" % self.ou1.name,
+            record.ids, [], f"User 2 should not have access to OU : {self.ou1.name}"
         )
 
         with self.assertRaises(ValidationError):

@@ -7,7 +7,6 @@ from odoo.tools.translate import _
 
 
 class MrpProduction(models.Model):
-
     _inherit = "mrp.production"
 
     operating_unit_id = fields.Many2one(

@@ -26,7 +26,7 @@
                 expr="//page[@name='miscellaneous']/group/group[1]"
                 position="inside"
             >
-                    <field
+                <field
                     name="operating_unit_id"
                     domain="[('user_ids', 'in', uid)]"
                     groups="operating_unit.group_multi_operating_unit"
